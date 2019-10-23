@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+}
+
+.progress-container {
+  background: #afafaf;
+}
+.progress {
+  background: green;
+  transform-origin: 0% 0%;
+  height: 20px;
+  transform: scaleX(0);
+  transition: transform 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.active {
+  transform: scaleX(1);
+}
+
+.bars {
+  margin: 20px;
+}
